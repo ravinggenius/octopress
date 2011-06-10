@@ -1,11 +1,42 @@
+# Required configuration
 source: source
-destination: site
+destination: public
+
+url: http://yoursite.com
+title: My Octopress Blog
+subtitle: A blogging framework for hackers.
+author: Your Name
+subscribe_rss: /atom.xml
+subscribe_email: http://feedburner.com/asdfasdf
+
 markdown: rdiscount
 pygments: true
-permalink: /blog/:year/:month/:day/:title
-url: http://yoursite.com
-multiviews: true
-sass: false
-haml: true
-post_defaults:
-  layout: blog_post
+recent_posts: 1
+simple_search: http://google.com/search
+
+# Optional configurations
+
+# For RSS
+email:
+
+# Twitter
+twitter_user: imathis
+twitter_tweet_count: 4
+twitter_show_replies: false
+twitter_follow_button: true
+twitter_show_follower_count: false
+twitter_tweet_button: true
+
+# Pinboard
+#pinboard_user: imathis
+pinboard_count: 3
+
+# Delicious
+delicious_user:
+delicious_count: 3
+
+# Disqus Comments
+disqus_short_name:
+
+# Google Analytics
+google_analytics_tracking_id:
